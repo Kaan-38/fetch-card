@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+body {
+    background-color:#ececec;
+}
+.container-ortala {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+}
+.container-kapsam{
+    position: relative;
+    width:auto;
+    height: auto;
+   
+    
+   
+   
+
+}
+li {
+    position: relative;
+    list-style: none;
+    width:380px;
+    height: 144px;
+    background-color:#4599ec;
+    border-radius: 10px;
+    box-shadow: 0 0 8px #4599ec;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;    
+    line-height: 28px;
+    cursor: pointer;
+    color: white;
+    text-shadow: 0 0 2px white;
+}
+li:hover {
+    transform: scale(1.03);
+}
+li .photoUser {
+    width: 78px; 
+    height: 78px;
+    border-radius: 50%;
+    box-shadow: 0 0 6px white; 
+    margin-left: 8px;
+    
+}
+li label {
+    position:relative;
+    margin-left: 12px; 
+    cursor: pointer;
+}
+li label span {
+    position:relative;
+    display: flex;
+    
+    align-items: center;
+    
+ }
+ li label span img {
+     width: 26px;
+     height: 26px;
+     border-radius: 4px;
+     box-shadow: 0 0 3px white;
+ }
+li label span h3 {
+    position:relative;
+    margin-left: 5px;
+}
+li label span ion-icon {
+     font-size: 26px;
+
+}
+li label span h4 {
+    margin-left: 5px;    
+}
